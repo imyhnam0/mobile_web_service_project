@@ -1,0 +1,67 @@
+/* 기본 설정 */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9fafc;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* 컨테이너 */
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* 헤더 */
+.site-header {
+    background: linear-gradient(120deg, #4f46e5, #06b6d4);
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+.site-header h1 a {
+    color: white;
+    text-decoration: none;
+    font-size: 2.2rem;
+}
+.site-header .tagline {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    opacity: 0.9;
+}
+
+/* 게시글 */
+.post {
+    background: white;
+    margin: 2rem 0;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.post h1 {
+    color: #1e3a8a;
+}
+.post .date {
+    color: #6b7280;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+.post img {
+    border-radius: 8px;
+    margin-top: 1rem;
+    max-width: 100%;
+    height: auto;
+}
+
+/* 푸터 */
+.site-footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f3f4f6;
+    margin-top: 3rem;
+    color: #555;
+    font-size: 0.9rem;
+}
