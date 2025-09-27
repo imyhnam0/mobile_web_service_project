@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Django Blog</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+</head>
+<body>
+    <header>
+        <h1><a href="/">My Django Blog</a></h1>
+        <hr>
+    </header>
+
+    <main>
+        {% block content %}
+        <!-- 각 페이지에서 채워질 내용 -->
+        {% endblock %}
+    </main>
+
+    <footer>
+        <hr>
+        <p>&copy; 2025 My Blog</p>
+    </footer>
+</body>
+</html>
+
